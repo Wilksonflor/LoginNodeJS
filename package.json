@@ -4,5 +4,23 @@
     "hbs": "^4.2.0",
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22"
-  }
+  },
+  "name": "loginnodejs",
+  "description": "Fazendo uma tela de login com Node e Mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilksonflor/LoginNodeJS.git"
+  },
+  "author": "Wilkson Flor Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wilksonflor/LoginNodeJS/issues"
+  },
+  "homepage": "https://github.com/Wilksonflor/LoginNodeJS#readme"
 }
