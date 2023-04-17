@@ -3,26 +3,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/login.css">
     <title>Document</title>
   </head>
   <body>
     <h2>Login</h2>
-    <form action="/login" method="post">
-      <input
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Digite o seu nome"
-      />
-      <input
-        type="password"
-        name="password"
-        id="password"
-        placeholder="Digite a sua senha"
-      />
-      <input type="submit" value="Entrar" />
+    <div class="containerLogin">
+      <div class="loginImg">
+        <img src="../public/img/Logo_Coletiva.png" alt="Logo Marca da coletiva">
+      </div>
+      <div class="loginForm">
+        <form action="/login" method="post">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Digite o seu nome"
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite a sua senha"
+          />
+          <input type="submit" value="Entrar" />
 
-    </form>
+        </form>
+      </div>
+
+    </div>
 
     <a href="signup">Cadastre-se</a>
   </body>

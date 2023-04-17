@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
     "hbs": "^4.2.0",
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22"
