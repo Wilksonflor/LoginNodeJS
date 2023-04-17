@@ -1,8 +1,11 @@
 const express = require("express");
 const app = express();
+const exphbs = require('express-handlebars') 
 const path = require("path");
 const hbs = require("hbs");
 const collection = require("./mongodb");
+
+// app.engine('handlebars', exphbs({defaultLayout: 'principal'}))
 
 const templatePath = path.join(__dirname, "../templates");
 app.use(express.json());
@@ -11,6 +14,7 @@ app.set("views", templatePath);
 app.use(express.urlencoded({ extended: false }));
 
 app.use(express.static("public"));
+// Para usar os arquivos estaticos que está na pasta public
 
 app.get("/", (req, res) => {
   res.render("login");
